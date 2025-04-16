@@ -1,0 +1,19 @@
+@keyframes pulse-bg-keyframes {
+                0%, 100% { background-color: transparent; }
+               50% { background-color: rgba(59, 130, 246, 0.1); } /* Light blue pulse */
+            }
+              .animate-pulse-bg {
+                animation: pulse-bg-keyframes 0.3s ease-in-out;
+              }
+
+
+              /* Vibration Animation */
+              @keyframes vibrate-keyframes {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(-1px); }
+                50% { transform: translateX(1px); }
+                75% { transform: translateX(-1px); }
+              }
+              .animate-vibrate {
+                animation: vibrate-keyframes 0.2s linear; /* Short vibration duration */
+              }
