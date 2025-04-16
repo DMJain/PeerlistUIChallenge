@@ -14,12 +14,12 @@ import music from "../assets/Screenshot2025-04-16223529.png";
 
 // Updated data with proper image references
 const initialContentData = [
- { id: 1, title: 'Abstract Cube', description: 'A colorful abstract cube render.', imageUrl: butterfly, price: 0.855, tokenId: 209 },
- { id: 2, title: 'Mountain Landscape', description: 'Scenic view of mountains.', imageUrl: lion, price: 0.209, tokenId: 808 },
- { id: 3, title: 'City Skyline', description: 'Night view of a city skyline.', imageUrl: korablik, price: 1.100, tokenId: 101 },
- { id: 4, title: 'Forest Path', description: 'A tranquil path through a forest.', imageUrl:lunar, price: 0.550, tokenId: 314 },
- { id: 5, title: 'Ocean Waves', description: 'Waves crashing on a shore.', imageUrl: hand, price: 0.765, tokenId: 500 },
- { id: 6, title: 'Desert Dunes', description: 'Sand dunes under a clear sky.', imageUrl: music, price: 0.300, tokenId: 999 },
+ { id: 1, title: 'ButterFly', description: 'A colorful abstract butterfly.', imageUrl: butterfly, price: 0.855, tokenId: 209 },
+ { id: 2, title: 'Chinese Lion', description: 'A beautiful Chines Lion Abstract.', imageUrl: lion, price: 0.209, tokenId: 808 },
+ { id: 3, title: 'Korablik', description: 'abstract of korablik.', imageUrl: korablik, price: 1.100, tokenId: 101 },
+ { id: 4, title: 'Lunar New Year', description: 'A potray of Lunar New Year.', imageUrl:lunar, price: 0.550, tokenId: 314 },
+ { id: 5, title: 'Skilled Finger', description: 'Master at work.', imageUrl: hand, price: 0.765, tokenId: 500 },
+ { id: 6, title: 'Vibrant Vibes', description: 'Vibrant music define you.', imageUrl: music, price: 0.300, tokenId: 999 },
 ];
 
 // --- Tab Component ---
